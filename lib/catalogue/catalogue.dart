@@ -30,8 +30,8 @@ class Catalogue extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              FormInputs(),
-              const SizedBox(height: 64),
+              // FormInputs(),
+              // const SizedBox(height: 64),
               //
               // const Buttons(),
               // const SizedBox(height: 64),
@@ -63,7 +63,8 @@ class Catalogue extends StatelessWidget {
               PaymentFlowPopup(
                   width: 350,
                   amount: 'NGN 100,000'
-              )
+              ),
+              const SizedBox(height: 32),
 
 
             ],

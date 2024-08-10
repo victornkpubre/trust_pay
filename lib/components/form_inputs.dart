@@ -52,8 +52,10 @@ class FormInputs extends StatelessWidget {
 
           AppSecondaryTextAreaInput(
             title: "Account Number",
-            hint: "0000 0000 0000 0000",
+            hint: "00000000000",
             controller: controller,
+            isCardNumberInput: true,
+            limit: 11,
           ),
           const SizedBox(height: 32),
 

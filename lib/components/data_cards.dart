@@ -59,6 +59,16 @@ class DataCards extends StatelessWidget {
         ),
         const SizedBox(height: 64),
 
+        const SellerDataCard(
+          username: "Sarah Doe",
+          accountNumber: '#7672882',
+          trades: '25',
+          completionRate: '99%',
+          expanded: false,
+          width: 335,
+        ),
+        const SizedBox(height: 64),
+
         const TransactionStatsCard(
           width: 350,
           transactions: 22,
